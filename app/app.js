@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+var React = require('react');
+var ReactDOM = require('react-dom');
 
 const Hello = () => {
 	return (
-		<div>Hello World</div>
+		<div>This is done by react and probably where i will link instagram api</div>
 	)
 }
 

@@ -2,10 +2,11 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var logger = require("morgan");
 var path = require("path");
-var apiRoutes = require("./controllers/apiRoutes.js");
 
 var app = express();
 var port = process.env.PORT || 3000;
+
+require("./controllers/apiRoutes.js")(app);
 
 app.use(logger("dev"));
 app.use(bodyParser.json());
