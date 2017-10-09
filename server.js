@@ -6,13 +6,13 @@ var path = require("path");
 var app = express();
 var port = process.env.PORT || 3000;
 
-require("./controllers/apiRoutes.js")(app);
-
 app.use(logger("dev"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
+
+require("./controllers/apiRoutes.js")(app);
 
 app.use(express.static("public"));
 app.listen(port);
