@@ -43,7 +43,7 @@
 
       console.log(newEmail);
 
-      $.post("/api/contact", newEmail)
+      $.post("/contact", newEmail)
       .done(function(data) {
         console.log(data);
       });

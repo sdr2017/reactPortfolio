@@ -1,6 +1,7 @@
 var express = require("express");
 var router = express.Router();
 var path = require("path");
+var bodyParser = require("body-parser");
 
 var keys = require("../keys.js");
 var api_key = keys.keys.secret;
@@ -32,7 +33,7 @@ var apiRoutes = function(app){
 	    res.sendFile(path.join(__dirname, "..", "public", "contact.html"));
 	});
 
-	app.post('/api/contact', function(req, res) {
+	app.post('/contact', function(req, res) {
 		console.log(req.body);
 
 		var data = {
