@@ -2,6 +2,7 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var logger = require("morgan");
 var path = require("path");
+//var db = require('./models')
 
 var app = express();
 var port = process.env.PORT || 3000;
@@ -17,3 +18,10 @@ require("./controllers/apiRoutes.js")(app);
 app.use(express.static("public"));
 app.listen(port);
 console.log("listening on Port 3000");
+
+// app.use(express.static("public"));
+// db.sequelize.sync().then(()=> {
+// 	app.listen(port);
+// 	console.log("listening on Port 3000");
+// });
+

@@ -35,10 +35,13 @@ var apiRoutes = function(app){
 
 	app.post('/contact', function(req, res) {
 		console.log(req.body);
+		// db.email.create(req.body).then(function(dbEmail) {
+  //           res.json(dbEmail);
+  //       });
 
 		var data = {
 			from: req.body.email,
-			to: 'sjdiazrivera@gmail.com',
+			to: 'sarahjeanlinnebur@yahoo.com',
 			subject: req.body.subject,
 			text: req.body.message
 		};
@@ -46,6 +49,7 @@ var apiRoutes = function(app){
 		mailgun.messages().send(data, function (error, body) {
   			console.log(body);
 		});
+	
 	});
 
 }
