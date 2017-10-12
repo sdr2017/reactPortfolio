@@ -5,6 +5,8 @@ var path = require("path");
 //var db = require('./models')
 
 var app = express();
+app.use(express.static(path.join(__dirname, "..", 'public', "assets")));
+	//app.use(express.static("public"));
 var port = process.env.PORT || 3000;
 
 app.use(logger("dev"));
@@ -15,7 +17,7 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 require("./controllers/apiRoutes.js")(app);
 
-app.use(express.static("public"));
+//app.use(express.static("public"));
 app.listen(port);
 console.log("listening on Port 3000");
 
