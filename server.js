@@ -5,7 +5,7 @@ var path = require("path");
 //var db = require('./models')
 
 var app = express();
-//app.use(express.static(path.join(__dirname,'public')));
+// app.use(express.static(path.join(__dirname,'..', 'public')));
 app.use(express.static("./public"));
 var port = process.env.PORT || 3000;
 

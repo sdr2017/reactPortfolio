@@ -1,4 +1,12 @@
-body {
-	margin: 0px;
-	padding: 0px;
+#myPhoto {
+	height: 500px;
+	background-image: url(../assets/images/myPhoto.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#carousel {
+	width: 100%;
+	height: 500px;
 }
