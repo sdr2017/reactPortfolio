@@ -9,9 +9,6 @@ var domain = 'sandbox5e5714634bda4e73801a54418c3a1b59.mailgun.org';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 
 var apiRoutes = function(app){
-	app.use(express.static(path.join(__dirname, "..", 'public', "assets")));
-	//app.use(express.static("public"));
-
 	//homepage
 	app.get("/", function(req, res) {
 		// res.send("home request")
