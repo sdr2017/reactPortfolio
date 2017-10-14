@@ -9,6 +9,12 @@ var domain = 'sandbox5e5714634bda4e73801a54418c3a1b59.mailgun.org';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 
 var apiRoutes = function(app){
+	//email submitted 
+	app.get("/submitted", function(req, res) {
+		// res.send("contact request")
+	    res.sendFile(path.join(__dirname, "..", "public", "submitted.html"));
+	});
+
 	//homepage
 	app.get("/", function(req, res) {
 		// res.send("home request")
@@ -45,9 +51,13 @@ var apiRoutes = function(app){
 			subject: req.body.subject,
 			text: req.body.message
 		};
+		console.log(data);
 
 		mailgun.messages().send(data, function (error, body) {
-  			console.log(body);
+			if(!error){
+				console.log(body);
+				res.redirect('/submitted');
+			}
 		});
 	
 	});

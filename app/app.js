@@ -28,7 +28,7 @@ ReactDOM.render(
 const Icons = () => {
 
 	return (
-		<div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div className="icons col-xs-12 col-sm-12 col-md-6 col-lg-6">
         	<img
             alt="instagram"
             src="assets/images/instagram.png"
