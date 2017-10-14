@@ -3,10 +3,27 @@ body {
 	padding: 0px;
 }
 
+.row {
+	margin: 0px;
+}
+
 #menu {
-	background-color: #efefef;
+	background-image: url(../assets/images/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding: 15px;
 	height: 75px;
+	font-family: 'Montserrat', sans-serif;
+	color: #0061c8;
+}
+
+#graphics, #web, #contact {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 40px;
+	margin-right: 20px;
+	color: #0061c8;
 }
 
 #logo {
@@ -15,6 +32,10 @@ body {
 	margin-right: 15px;
 }
 
-#myName{
+#myName {
 	float: left;
+}
+
+#footer {
+	background-color: #414042;
 }

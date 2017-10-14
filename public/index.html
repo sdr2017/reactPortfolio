@@ -7,29 +7,29 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./assets/menu.css">
 	<link rel="stylesheet" type="text/css" href="./assets/index.css">
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="components/bootstrap/dist/js/bootstrap.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
 	<!--<script src="assets/indexJS.js" type="text/javascript"></script>-->
 </head>
 <body>
 
 	<div id="menu" class="row">
-		<div id="home" class="col-lg-6">
+		<div id="home" class="col-lg-8">
 			<img id="logo" src="./assets/images/logo.svg">
 			<h1 id="myName"> Sarah Diaz-Rivera </h1>
 		</div>
 
-		<div class="col-lg-2">
-			<h2 class="menuItems"><a href="/graphics.html">Graphics</a></h2>
+		<div class="menuItems col-lg-4">
+			 <a id="graphics" href="/graphics.html">Graphics</a>
+
+			<a id="web" href="web.html">Web</a>
+
+			<a id="contact" href="contact.html">Contact</a>
 		</div>
 
-		<div class="col-lg-2">
-			<h2 class="menuItems"><a href="web.html">Web</a></h2>
-		</div>
-
-		<div class="col-lg-2">
-			<h2 class="menuItems"><a href="contact.html">Contact</a></h2>
-		</div>
 	</div>
 
 	<div class="row">
@@ -65,28 +65,51 @@
 		<div id="myPhoto" class="col-lg-4">
 		</div>
 
-		<div id="aboutMe" class="col-lg-8">
+		<div class="aboutMe col-lg-1"></div>
+
+		<div class="aboutMe col-lg-6" id="paragraph">
 			<p>Sarah Diaz-Rivera is a graphic designer and front-end web developer with a passion for good design and creativity. She works to create unified, cohesive, and eye-pleasing marketing materials to help clients achieve their goals. With an emphasis in branding, Sarah ensures both large and small businesses have aesthetics that creatively work for their company.</p>
 		</div>
+
+		<div class="aboutMe col-lg-1"></div>
+
 	</div>
 
 	<div class="row">
-		<div class="skills col-lg-4">
+		<div class="skills col-lg-2">
+		</div>
+
+		<div class="skills col-lg-2">
 			<img id="design" src="./assets/images/design.svg">
 		</div>
 
-		<div class="skills col-lg-4">
+		<div class="skills col-lg-1">
+		</div>
+
+		<div class="skills col-lg-2">
 			<img id="coding" src="./assets/images/coding.svg">
 		</div>
 
-		<div class="skills col-lg-4">
+		<div class="skills col-lg-1">
+		</div>
+
+		<div class="skills col-lg-2">
 			<img id="photography" src="./assets/images/photography.svg">
+		</div>
+
+		<div class="skills col-lg-2">
 		</div>
 
 	</div>
 
 
 	<div id="app"></div>
+
+	<div class="row" id="footer">
+		<div id="copyright"></div>
+		<div id="icons"></div>
+	</div>
+
 	<script src="./bundle.js"></script>
 	<script type="text/javascript">
 		$('.carousel').carousel();
