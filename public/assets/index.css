@@ -27,6 +27,15 @@
 	background-color: #c4c4c4;
 }
 
-.icons {
-	width: 50px;
+#footer {
+	padding: 10px 10px 0px 10px;
+}
+
+#footerText {
+	padding: 20px;
+	color: #ffffff;
+}
+
+#github, #linkedin, #dribbble, #instagram {
+	margin: 20px;
 }
