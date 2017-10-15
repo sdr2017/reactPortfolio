@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-	color
+	text-decoration: none;
 }
 
 #menu {
