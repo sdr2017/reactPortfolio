@@ -1,3 +1,7 @@
+#web {
+	color: #5ba9ef;
+}
+
 .project {
 	border-bottom: 2px #c4c4c4 solid;
 }
@@ -30,4 +34,11 @@
 
 #webProject3 {
 	padding: 0px;
+}
+
+#webProject5 {
+	background-image: url(../assets/images/webProject5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }

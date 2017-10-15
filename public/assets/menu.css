@@ -7,11 +7,21 @@ body {
 	margin: 0px;
 }
 
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	color
+}
+
 #menu {
-	background-image: url(../assets/images/background.jpg);
+	/*background-image: url(../assets/images/background.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
+	background-color: #414042;
 	padding: 15px;
 	height: 75px;
 	font-family: 'Montserrat', sans-serif;
@@ -26,6 +36,11 @@ body {
 	color: #0061c8;
 }
 
+#myName:hover, #graphics:hover, #web:hover, #contact:hover{
+	color: #5ba9ef;
+	text-decoration: none;
+}
+
 #logo {
 	float: left;
 	height: 45px;
@@ -34,8 +49,24 @@ body {
 
 #myName {
 	float: left;
+	color: #0061c8;
 }
 
 #footer {
 	background-color: #414042;
+	padding: 10px 10px 0px 10px;
+}
+
+.footerText {
+	text-align: center;
+	padding: 20px;
+	color: #ffffff;
+}
+
+#privacy {
+	color: #c4c4c4;
+}
+
+#github, #linkedin, #dribbble, #instagram {
+	margin: 20px;
 }
