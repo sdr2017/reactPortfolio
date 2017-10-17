@@ -41,16 +41,15 @@ var apiRoutes = function(app){
 	});
 
 	app.post('/contact', function(req, res) {
-		console.log("ANY STRING THAT WOULD BE OBVIOUS TO SEE");
 
 		console.log(req.body);
-		// db.email.create(req.body).then(function(dbEmail) {
-  //           res.json(dbEmail);
-  //       });
 
-		db.emailAddress.create({emailAddress: req.body.email}).then(function(dbPost) {
-			console.log(req.body);
-		});
+		if (req.body.checked == 'on') {
+
+			db.emailAddress.create({emailAddress: req.body.email}).then(function(dbPost) {
+				console.log(req.body);
+			});
+		};
 
 		var data = {
 			from: req.body.email,
@@ -58,6 +57,7 @@ var apiRoutes = function(app){
 			subject: req.body.subject,
 			text: req.body.message
 		};
+
 		console.log(data);
 
 		mailgun.messages().send(data, function (error, body) {
