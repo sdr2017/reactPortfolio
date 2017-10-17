@@ -1,6 +1,9 @@
 module.exports = function (sequelize, DataTypes){
 	var emailAddress = sequelize.define('emailAddress', {
-		emailAddress: DataTypes.STRING,
+		emailAddress: {type: DataTypes.STRING,
+			validate: {
+				isEmail: true,
+			}}
 	});
 	return emailAddress;
 }

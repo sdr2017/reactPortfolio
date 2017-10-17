@@ -6,3 +6,8 @@
 	padding: 50px 50px 0px 50px;
 	font-family: 'Montserrat', sans-serif;
 }
+
+#errorMessage {
+	color: red;
+	padding-left: 50px;
+}

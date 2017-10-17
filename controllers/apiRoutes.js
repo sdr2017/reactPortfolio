@@ -44,30 +44,41 @@ var apiRoutes = function(app){
 
 		console.log(req.body);
 
-		if (req.body.checked == 'on') {
+		if (req.body.email !=='' && req.body.subject !=='' && req.body.message !=='') {
 
-			db.emailAddress.create({emailAddress: req.body.email}).then(function(dbPost) {
-				console.log(req.body);
+			if (req.body.checked == 'on') {
+
+				db.emailAddress.create({emailAddress: req.body.email}).then(function(dbPost) {
+					console.log(req.body);
+				}).catch(function(error){
+					res.status(400).send(error);
+					return;
+				});
+			};
+
+			var data = {
+				from: req.body.email,
+				to: 'sjdiazrivera@gmail.com',
+				subject: req.body.subject,
+				text: req.body.message
+			};
+
+			console.log(data);
+
+			mailgun.messages().send(data, function (error, body) {
+				if(!error){
+					console.log(body);
+					res.redirect('/submitted');
+				}
 			});
-		};
+		}
 
-		var data = {
-			from: req.body.email,
-			to: 'sjdiazrivera@gmail.com',
-			subject: req.body.subject,
-			text: req.body.message
-		};
-
-		console.log(data);
-
-		mailgun.messages().send(data, function (error, body) {
-			if(!error){
-				console.log(body);
-				res.redirect('/submitted');
-			}
-		});
-	
+		else {
+			console.log("THERE ARE EMPTY FIELDS");
+			return
+		}
 	});
+
 
 }
 
