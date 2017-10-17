@@ -7,6 +7,7 @@ var keys = require("../keys.js");
 var api_key = keys.keys.secret;
 var domain = 'sandbox5e5714634bda4e73801a54418c3a1b59.mailgun.org';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
+var db = require('../models');
 
 var apiRoutes = function(app){
 	//email submitted 
@@ -40,10 +41,16 @@ var apiRoutes = function(app){
 	});
 
 	app.post('/contact', function(req, res) {
+		console.log("ANY STRING THAT WOULD BE OBVIOUS TO SEE");
+
 		console.log(req.body);
 		// db.email.create(req.body).then(function(dbEmail) {
   //           res.json(dbEmail);
   //       });
+
+		db.emailAddress.create({emailAddress: req.body.email}).then(function(dbPost) {
+			console.log(req.body);
+		});
 
 		var data = {
 			from: req.body.email,
