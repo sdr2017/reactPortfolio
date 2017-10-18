@@ -1,0 +1,116 @@
+.projects {
+	height: 300px;
+
+}
+
+#project1 {
+	background-image: url(images/graphics/project1/project1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#project2 {
+	background-image: url(images/graphics/project2/project2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#project3 {
+	background-image: url(images/graphics/project3/project3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#project4 {
+	background-image: url(images/graphics/project4/project4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#project5 {
+	background-image: url(images/graphics/project5/project5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#project6 {
+	padding: 0px;
+}
+
+#project7 {
+	background-image: url(images/graphics/project7/project7.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#project8 {
+	background-image: url(images/graphics/project8/project8.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#project9 {
+	background-image: url(images/graphics/project9/project9.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#project10 {
+	background-image: url(images/graphics/project10/project10.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#project11 {
+	background-image: url(images/graphics/project11/project11.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#project12 {
+	background-image: url(images/graphics/project12/project12.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#myTurntable {
+	height: 300px;
+}
+
+.image {
+	height: 300px;
+}
+
+.turntable {
+  margin: 0px; 
+}
+
+.turntable ul {
+  padding: 0px;
+  margin: 0px; 
+}
+
+.turntable ul li {
+  list-style-type: none;
+  display: none; 
+}
+
+.turntable ul li img {
+  width: 100%; 
+}
+
+.turntable ul li.active {
+  display: block; 
+}
+            
