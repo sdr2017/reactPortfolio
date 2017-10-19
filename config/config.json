@@ -1,20 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "email",
-    "host": "127.0.0.1",
+    "username": "sarahdiazrivera",
+    "password": "uLoRSBZgZXOj",
+    "database": "sarahdiazrivera",
+    "host": "codeflink.net",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "email",
-    "host": "127.0.0.1",
+    "username": "sarahdiazrivera",
+    "password": "uLoRSBZgZXOj",
+    "database": "sarahdiazrivera",
+    "host": "codeflink.net",
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable":"JAWSDB_URL",
+    "username": "sarahdiazrivera",
+    "password": "uLoRSBZgZXOj",
+    "database": "sarahdiazrivera",
+    "host": "codeflink.net",
     "dialect": "mysql"
   }
 }
