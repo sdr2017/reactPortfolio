@@ -3,8 +3,12 @@ var router = express.Router();
 var path = require("path");
 var bodyParser = require("body-parser");
 
-var keys = require("../keys.js");
-var api_key = keys.keys.secret;
+var api_key;
+if (process.env.MAILGUNSECRET) {
+	api_key = process.env.MAILGUNSECRET;
+} else {
+	api_key = require("../keys.js").keys.secret;
+}
 var domain = 'sandbox5e5714634bda4e73801a54418c3a1b59.mailgun.org';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 var db = require('../models');
