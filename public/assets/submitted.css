@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -90px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.stickyFooter{
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+  	height: 90px; 
+}

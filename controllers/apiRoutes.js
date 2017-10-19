@@ -48,7 +48,7 @@ var apiRoutes = function(app){
 
 		console.log(req.body);
 
-		if (req.body.email !=='' && req.body.subject !=='' && req.body.message !=='') {
+		if (req.body.email !=='' && req.body.subject !=='' && req.body.message !=='        ') {
 
 			if (req.body.checked == 'on') {
 
