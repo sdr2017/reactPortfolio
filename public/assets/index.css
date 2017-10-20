@@ -11,8 +11,16 @@
 	height: 500px;
 }
 
+.carousel-caption {
+	margin: auto;
+	display: block;
+	width: 30%;
+	color: #ffffff;
+	text-shadow: 0 0 25px #000000;
+}
+
 .aboutMe {
-	background-color: #dcf0ff;
+	background-color: #d5eef2;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	line-height: 30px;
@@ -23,6 +31,25 @@
 }
 
 .skills {
-	padding: 50px;
 	background-color: #c4c4c4;
+	padding: 20px;
+}
+
+#skillsHeading {
+	text-align: center;
+	border-bottom: 2px #414042 solid;
+	padding: 0px 20% 20px 20%;
+}
+
+.skillIcons {
+	text-align: center;
+}
+
+h4 {
+	color: #414042;
+}
+
+#design, #photography, #coding {
+	padding: 20px;
+	height: 175px;
 }
