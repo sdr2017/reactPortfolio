@@ -1,5 +1,5 @@
 #contact {
-	color: #5ba9ef;
+	color: #ce827a;
 }
 
 .contact {
@@ -14,4 +14,9 @@
 #errorMessage {
 	color: red;
 	padding-left: 50px;
+}
+
+#submit {
+	background-color: #c68281;
+	border: none;
 }

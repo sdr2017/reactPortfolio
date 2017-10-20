@@ -21,11 +21,15 @@ a:hover {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;*/
-	background-color: #414042;
+	background-color: #635858;
 	padding: 15px;
 	height: 75px;
 	font-family: 'Montserrat', sans-serif;
-	color: #0061c8;
+}
+
+#myName {
+	float: left;
+	color: #a3cfd3;
 }
 
 #graphics, #web, #contact {
@@ -33,11 +37,11 @@ a:hover {
 	font-size: 20px;
 	line-height: 40px;
 	margin-right: 20px;
-	color: #0061c8;
+	color: #a3cfd3;
 }
 
 #myName:hover, #graphics:hover, #web:hover, #contact:hover{
-	color: #5ba9ef;
+	color: #7bbac5;
 	text-decoration: none;
 }
 
@@ -47,25 +51,20 @@ a:hover {
 	margin-right: 15px;
 }
 
-#myName {
-	float: left;
-	color: #0061c8;
-}
-
 #footer {
 	height: 90px;
-	background-color: #414042;
+	background-color: #635858;
 	padding: 10px 10px 0px 10px;
 }
 
 .footerText {
 	text-align: center;
 	padding: 20px;
-	color: #ffffff;
+	color: #a3cfd3;
 }
 
 #privacy {
-	color: #c4c4c4;
+	color: #c68281;
 }
 
 #github, #linkedin, #dribbble, #instagram {
