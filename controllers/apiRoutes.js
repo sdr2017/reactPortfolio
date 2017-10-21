@@ -9,6 +9,7 @@ if (process.env.MAILGUNSECRET) {
 } else {
 	api_key = require("../keys.js").keys.secret;
 }
+
 var domain = 'sandbox5e5714634bda4e73801a54418c3a1b59.mailgun.org';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 var db = require('../models');
@@ -17,37 +18,37 @@ var apiRoutes = function(app){
 	//email submitted 
 	app.get("/submitted", function(req, res) {
 		// res.send("contact request")
-	    res.sendFile(path.join(__dirname, "..", "public", "submitted.html"));
+		res.sendFile(path.join(__dirname, "..", "public", "submitted.html"));
 	});
 
 	//homepage
 	app.get("/", function(req, res) {
 		// res.send("home request")
-	    res.sendFile(path.join(__dirname, "..", "public", "index.html"));
+		res.sendFile(path.join(__dirname, "..", "public", "index.html"));
 	});
 
 	//graphics
 	app.get("/graphics", function(req, res) {
 		// res.send("home request")
-	    res.sendFile(path.join(__dirname, "..", "public", "graphics.html"));
+		res.sendFile(path.join(__dirname, "..", "public", "graphics.html"));
 	});
 
 	//web
 	app.get("/web", function(req, res) {
 		// res.send("home request")
-	    res.sendFile(path.join(__dirname, "..", "public", "web.html"));
+		res.sendFile(path.join(__dirname, "..", "public", "web.html"));
 	});
 
 	//privacy policy
 	app.get("/privacyPolicy", function(req, res) {
 		// res.send("home request")
-	    res.sendFile(path.join(__dirname, "..", "public", "privacyPolicy.html"));
+		res.sendFile(path.join(__dirname, "..", "public", "privacyPolicy.html"));
 	});
 
 	//contact 
 	app.get("/contact", function(req, res) {
 		// res.send("contact request")
-	    res.sendFile(path.join(__dirname, "..", "public", "contact.html"));
+		res.sendFile(path.join(__dirname, "..", "public", "contact.html"));
 	});
 
 	app.post('/contact', function(req, res) {

@@ -16,54 +16,53 @@
 </head>
 <body>
 
+  <!--MENU =====================================================-->
   <div id="menu" class="row">
     <div id="home" class="col-lg-8">
       <h1> <a id="myName" href="/">Sarah Diaz-Rivera</a></h1>
     </div>
 
     <div class="menuItems col-lg-4">
-       <a id="graphics" href="/graphics.html">Graphics</a>
+     <a id="graphics" href="/graphics.html">Graphics</a>
 
-      <a id="web" href="web.html">Web</a>
+     <a id="web" href="web.html">Web</a>
 
-      <a id="contact" href="contact.html">Contact</a>
-    </div>
-
+     <a id="contact" href="contact.html">Contact</a>
+     </div>
   </div>
-	
+  <!--MENU END =====================================================-->
+
   <div id="heading">
-		<h1 id="contactMe">Contact me!</h1>
+    <h1 id="contactMe">Contact me!</h1>
     <h1 id="myEmailAddress">sjdiazrivera@gmail.com</h1>
-	</div>
-  <div class="row"></div>
-    <div class="col-lg-12" id="errorMessage"></div>
-
-  	<form class="contact" action="/contact" method="post">
-      <div class="form-group">
-        <label>Your Email address</label>
-        <input name="email" type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-        <label class="custom-control custom-checkbox">
-          <input name="checked" type="checkbox" class="custom-control-input">
-          <span class="custom-control-indicator"></span>
-          <span class="custom-control-description">I'd like to be added to Sarah's email newsletter list</span>
-        </label>
-      </div>
-      <div class="form-group">
-        <label>Subject</label>
-        <input name="subject" type="subject" class="form-control" id="subject" placeholder="subject">
-      </div>
-      <div class="form-group">
-        <label>Message</label>
-        <textarea name="message" type="message" class="form-control" id="message" placeholder="Message">
-        </textarea>
-      </div>
-      <button type="submit" id="submit" class="btn btn-primary">Submit</button>
-  </form>
-
-<div id="footer">
-    <!-- <div id="copyright"></div>
-    <div id="icons"></div> -->
   </div>
+
+<div class="row"></div>
+<div class="col-lg-12" id="errorMessage"></div>
+
+<form class="contact" action="/contact" method="post">
+  <div class="form-group">
+    <label>Your Email address</label>
+    <input name="email" type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+    <label class="custom-control custom-checkbox">
+      <input name="checked" type="checkbox" class="custom-control-input">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">I'd like to be added to Sarah's email newsletter list</span>
+    </label>
+  </div>
+  <div class="form-group">
+    <label>Subject</label>
+    <input name="subject" type="subject" class="form-control" id="subject" placeholder="subject">
+  </div>
+  <div class="form-group">
+    <label>Message</label>
+    <textarea name="message" type="message" class="form-control" id="message" placeholder="Message">
+    </textarea>
+  </div>
+  <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<div id="footer"></div>
 
   <script src="./bundle.js"></script>
   <script type="text/javascript">

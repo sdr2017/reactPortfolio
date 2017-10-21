@@ -19,9 +19,6 @@ app.use(express.static("./public"));
 
 require("./controllers/apiRoutes.js")(app);
 
-// app.listen(port);
-// console.log("listening on Port 3000");
-
 db.sequelize.sync().then(()=> {
 	app.listen(port);
 	console.log("listening on Port 3000");

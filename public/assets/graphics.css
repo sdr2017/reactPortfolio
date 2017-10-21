@@ -98,24 +98,23 @@
 }
 
 .turntable {
-  margin: 0px; 
+	margin: 0px; 
 }
 
 .turntable ul {
-  padding: 0px;
-  margin: 0px; 
+	padding: 0px;
+	margin: 0px; 
 }
 
 .turntable ul li {
-  list-style-type: none;
-  display: none; 
+	list-style-type: none;
+	display: none; 
 }
 
 .turntable ul li img {
-  width: 100%; 
+	width: 100%; 
 }
 
 .turntable ul li.active {
-  display: block; 
+	display: block; 
 }
-            
