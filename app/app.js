@@ -16,7 +16,7 @@ const Footer = () => {
 	return (
 		<div className="row">
 			<div className="icons col-xs-12 col-sm-12 col-md-3 col-lg-3">
-				<p id="privacy" className="footerText">Privacy Policy</p>
+				<p id="privacy" className="footerText"><a href="/privacyPolicy.html">Privacy Policy</a></p>
 			</div>
 
 			<div className="footerText col-xs-12 col-sm-12 col-md-6 col-lg-6">

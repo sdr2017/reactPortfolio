@@ -38,6 +38,12 @@ var apiRoutes = function(app){
 	    res.sendFile(path.join(__dirname, "..", "public", "web.html"));
 	});
 
+	//privacy policy
+	app.get("/privacyPolicy", function(req, res) {
+		// res.send("home request")
+	    res.sendFile(path.join(__dirname, "..", "public", "privacyPolicy.html"));
+	});
+
 	//contact 
 	app.get("/contact", function(req, res) {
 		// res.send("contact request")
