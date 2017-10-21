@@ -12,7 +12,7 @@ $(document).ready(function() {
 			$("#subject").css('border', 'solid 1px red');
 		};
 
-		if($("#message").val()==="        "){
+		if($("#message").val()==="    "){
 			$("#message").css('border', 'solid 1px red');
 		};
 		console.log("errors");
