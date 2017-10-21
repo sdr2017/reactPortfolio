@@ -3,32 +3,19 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 180.7 180.7" style="enable-background:new 0 0 180.7 180.7;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#D5EEF2;}
-	.st1{fill:#414042;}
-	.st2{fill:none;stroke:#D5EEF2;stroke-width:5;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#414042;stroke-width:3.2108;stroke-miterlimit:10;}
-	.st4{fill:#D5EEF2;stroke:#414042;stroke-width:4;stroke-miterlimit:10;}
-	.st5{fill:none;stroke:#414042;stroke-width:4;stroke-miterlimit:10;}
-	.st6{fill:none;stroke:#414042;stroke-width:5;stroke-miterlimit:10;}
+	.st0{fill:#D5EEF2;stroke:#414042;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#414042;stroke-width:5;stroke-miterlimit:10;}
+	.st2{fill:#414042;}
 </style>
-<circle class="st0" cx="90.4" cy="90.4" r="90.4"/>
-<path class="st1" d="M283.3,54l-32.4,67.8h0c12.7,0,23,10.3,23,23h18.9c0-12.7,10.3-23,23-23L283.3,54z"/>
-<line class="st2" x1="283.4" y1="53.3" x2="283.4" y2="111.9"/>
-<circle class="st0" cx="283.4" cy="112.4" r="6.8"/>
-<path class="st3" d="M228.4,98.9c0-30.3,24.6-54.9,54.9-54.9c30.3,0,54.9,24.6,54.9,54.9"/>
-<rect x="331.5" y="92.7" class="st4" width="13.6" height="13.6"/>
-<rect x="221.6" y="92.2" class="st4" width="13.6" height="13.6"/>
-<line class="st5" x1="233.2" y1="44" x2="333.5" y2="44"/>
-<rect x="276.6" y="37.2" class="st4" width="13.6" height="13.6"/>
-<circle class="st4" cx="333.5" cy="44" r="4.8"/>
+<circle class="st0" cx="90.4" cy="90.4" r="84.4"/>
 <g>
-	<polyline class="st6" points="77.1,115.5 60.9,99.3 77.1,83.1 	"/>
-	<polyline class="st6" points="105.4,83.1 121.6,99.3 105.4,115.5 	"/>
-	<line class="st6" x1="100.4" y1="72.6" x2="82.9" y2="126"/>
+	<polyline class="st1" points="78.1,113.6 63,98.5 78.1,83.5 	"/>
+	<polyline class="st1" points="104.3,83.5 119.4,98.5 104.3,113.6 	"/>
+	<line class="st1" x1="99.7" y1="73.7" x2="83.4" y2="123.4"/>
 </g>
-<rect x="36.3" y="64.5" class="st6" width="108.2" height="71.1"/>
-<rect x="36.3" y="41.7" class="st6" width="108.2" height="22.8"/>
-<circle class="st1" cx="49.4" cy="53.1" r="4.8"/>
-<circle class="st1" cx="66.4" cy="53.1" r="4.8"/>
-<circle class="st1" cx="83.4" cy="53.1" r="4.8"/>
+<rect x="40.1" y="66.2" class="st1" width="100.6" height="66.1"/>
+<rect x="40.1" y="45" class="st1" width="100.6" height="21.2"/>
+<circle class="st2" cx="52.3" cy="55.6" r="4.4"/>
+<circle class="st2" cx="68.1" cy="55.6" r="4.4"/>
+<circle class="st2" cx="83.9" cy="55.6" r="4.4"/>
 </svg>

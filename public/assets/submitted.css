@@ -1,3 +1,25 @@
+body {
+	background-color: #e9ecef;
+}
+
+#thankYou {
+	padding: 50px;
+	text-align: center;
+}
+
+#emailIcon {
+	height: 100px;
+	margin: 50px;
+}
+
+#thanksText {
+	color: #c68281;
+}
+
+#reachOut {
+	color: #635858;
+}
+
 * {
   margin: 0;
 }

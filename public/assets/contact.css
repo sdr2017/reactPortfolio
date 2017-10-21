@@ -1,3 +1,7 @@
+body {
+	background-color: #e9ecef;
+}
+
 #contact {
 	color: #ce827a;
 }
@@ -7,8 +11,17 @@
 }
 
 #heading {
+	text-align: center;
 	padding: 50px 50px 0px 50px;
 	font-family: 'Montserrat', sans-serif;
+}
+
+#contactMe {
+	color: #635858;
+}
+
+#myEmailAddress {
+	color: #c68281;
 }
 
 #errorMessage {
@@ -16,7 +29,11 @@
 	padding-left: 50px;
 }
 
+.custom-control-indicator {
+	border: 1px solid rgba(0,0,0,.15);
+}
+
 #submit {
-	background-color: #c68281;
+	background-color: #7bbac5;
 	border: none;
 }
