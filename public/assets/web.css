@@ -1,9 +1,13 @@
+body {
+	background-color: #e9ecef;
+}
+
 a {
-	color: #212529;
+	color: #635858;
 }
 
 a:hover {
-	color: #c4c4c4;
+	color: #7bbac5;
 	text-decoration: none;
 }
 
@@ -29,10 +33,11 @@ a:hover {
 
 .tech {
 	line-height: 30px;
+	color: #635858;
 }
 
 .projectName {
-	color: #212529;
+	color: #635858;
 }
 
 .projectName:hover {
@@ -42,6 +47,7 @@ a:hover {
 
 #webProject1 {
 	padding: 0px;
+	border-right: 2px #c4c4c4 solid;
 }
 
 .webProjectDescript {
@@ -52,6 +58,7 @@ a:hover {
 }
 
 #webProject2 {
+	border-left: 2px #c4c4c4 solid;
 	background-image: url(../assets/images/web/webProject2.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -59,10 +66,16 @@ a:hover {
 }
 
 #webProject3 {
+	border-right: 2px #c4c4c4 solid;
 	padding: 0px;
 }
 
+#webProject4 {
+	border-left: 2px #c4c4c4 solid;
+}
+
 #webProject5 {
+	border-right: 2px #c4c4c4 solid;
 	background-image: url(../assets/images/web/webProject5.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
