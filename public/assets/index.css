@@ -1,11 +1,3 @@
-#myPhoto {
-	height: 500px;
-	background-image: url(../assets/images/myPhoto.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 #carousel {
 	width: 100%;
 	height: 500px;
@@ -17,6 +9,14 @@
 	width: 30%;
 	color: #ffffff;
 	text-shadow: 0 0 25px #000000;
+}
+
+#myPhoto {
+	height: 500px;
+	background-image: url(../assets/images/myPhoto.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .aboutMe {
@@ -32,7 +32,8 @@
 
 .skills {
 	background-color: #c4c4c4;
-	padding: 20px;
+	padding: 10px 20px 0px 20px;
+	text-align: center;
 }
 
 #skillsHeading {
@@ -43,6 +44,7 @@
 
 .skillIcons {
 	text-align: center;
+	padding: 0px 40px 0px 40px;
 }
 
 h4 {
@@ -50,6 +52,41 @@ h4 {
 }
 
 #design, #photography, #coding {
-	padding: 20px;
-	height: 175px;
+	
+}
+
+@media only screen and (max-width: 991px) {
+
+#myPhoto {
+	height: 300px;
+	background-image: url(../assets/images/myPhoto.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.aboutMe{
+	float: left;
+}
+
+#paragraph {
+	padding: 50px;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+#paragraph {
+	padding: 50px;
+}
+
+}
+
+@media only screen and (max-width: 575px) {
+
+#paragraph {
+	padding: 50px;
+}
+
 }
