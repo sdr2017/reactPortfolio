@@ -24,7 +24,6 @@ a:hover {
 }
 
 #myName {
-	float: left;
 	color: #a3cfd3;
 }
 
@@ -65,4 +64,62 @@ a:hover {
 
 #github, #linkedin, #dribbble, #instagram {
 	margin: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+.menuItems {
+	text-align: right;
+	padding: 0px;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+#myName {
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+
+#home {
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+
+#menu {
+	height: 125px;
+	text-align: center;
+}
+
+.menuItems {
+	text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 575px) {
+#home {
+	text-align: center;
+}
+
+#menu {
+	height: 125px;
+}
+.menuItems {
+	text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 410px) {
+	#myName {
+		font-size: 35px;
+	}
+
+	#menu {
+		padding-right: 0px;
+		padding-left: 0px;
+		height: 145px;
+	}
 }

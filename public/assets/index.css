@@ -32,7 +32,13 @@
 
 .skills {
 	background-color: #c4c4c4;
-	padding: 10px 20px 0px 20px;
+	padding: 20px 20px 10px 20px;
+	text-align: center;
+}
+
+.skillsText {
+	background-color: #c4c4c4;
+	padding: 0px 20px 20px 20px;
 	text-align: center;
 }
 
@@ -58,7 +64,7 @@ h4 {
 @media only screen and (max-width: 991px) {
 
 #myPhoto {
-	height: 300px;
+	height: 390px;
 	background-image: url(../assets/images/myPhoto.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -77,13 +83,25 @@ h4 {
 
 @media only screen and (max-width: 767px) {
 
-#paragraph {
-	padding: 50px;
+#myPhoto {
+	height: 510px;
+	background-image: url(../assets/images/myPhoto.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 }
 
 @media only screen and (max-width: 575px) {
+
+#myPhoto {
+	height: 500px;
+	background-image: url(../assets/images/myPhoto.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 #paragraph {
 	padding: 50px;
