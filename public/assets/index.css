@@ -58,7 +58,7 @@
 
 .skills {
 	background-color: #c4c4c4;
-	padding: 20px 20px 10px 20px;
+	padding: 20px 20px 20px 20px;
 	text-align: center;
 }
 
@@ -110,6 +110,11 @@ h4 {
 	padding: 0px 10px 0px 10px;
 }
 
+h4 {
+	font-size: 20px;
+	color: #414042;
+}
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -124,7 +129,12 @@ h4 {
 
 .skillIcons {
 	text-align: center;
-	padding: 0px 10px 0px 10px;
+	padding: 0px;
+}
+
+h4 {
+	font-size: 14px;
+	color: #414042;
 }
 
 }
@@ -143,9 +153,27 @@ h4 {
 	padding: 50px;
 }
 
+#skillsHeading {
+	margin: 0px;
+}
+
+.skills {
+	padding-bottom: 0px;
+}
+
 .skillIcons {
 	text-align: center;
-	padding: 0px 10px 0px 10px;
+	padding: 0px 10px 10px 10px;
+}
+
+#design, #photography, #coding {
+	width: 100px;
+	padding-bottom: 10px;
+}
+
+h4 {
+	font-size: 20px;
+	color: #414042;
 }
 
 }
