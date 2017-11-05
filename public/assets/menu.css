@@ -72,6 +72,14 @@ a:hover {
 	padding: 0px;
 }
 
+.icons {
+	padding: 20px 0px 20px 0px;
+}
+
+#github, #linkedin, #dribbble, #instagram {
+	margin: 0px 10px 0px 10px;
+}
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -96,6 +104,27 @@ a:hover {
 	text-align: center;
 }
 
+#footer {
+	height: 175px;
+	background-color: #635858;
+	padding: 10px 10px 0px 10px;
+}
+
+.footerText {
+	text-align: center;
+	padding: 5px;
+	color: #a3cfd3;
+}
+
+.icons {
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+}
+
+#github, #linkedin, #dribbble, #instagram {
+	margin: 0px 10px 0px 10px;
+}
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -110,16 +139,35 @@ a:hover {
 	text-align: center;
 }
 
+.icons {
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+}
+
+#github, #linkedin, #dribbble, #instagram {
+	margin: 0px 5px 0px 5px;
+}
+
 }
 
 @media only screen and (max-width: 410px) {
-	#myName {
-		font-size: 35px;
-	}
+#myName {
+	font-size: 35px;
+}
 
-	#menu {
-		padding-right: 0px;
-		padding-left: 0px;
-		height: 145px;
-	}
+#menu {
+	padding-right: 0px;
+	padding-left: 0px;
+	height: 145px;
+}
+
+.icons {
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+}
+
+#github, #linkedin, #dribbble, #instagram {
+	margin: 0px 5px 0px 5px;
+}
+
 }

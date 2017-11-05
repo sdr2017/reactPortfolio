@@ -4,7 +4,7 @@ var ReactDOM = require('react-dom');
 const Footer = () => {
 	return (
 		<div className="row">
-			<div className="icons col-xs-12 col-sm-12 col-md-3 col-lg-3">
+			<div className="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 				<p className="footerText"><a id="privacy" href="/privacyPolicy.html">Privacy Policy</a></p>
 			</div>
 
