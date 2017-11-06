@@ -1,3 +1,19 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.stickyFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 90px;
+}
+
 #graphics {
 	color: #ce827a;
 }
@@ -33,6 +49,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	z-index: 0;
 }
 
 #project5 {
@@ -117,4 +134,27 @@
 
 .turntable ul li.active {
 	display: block; 
+}
+
+@media only screen and (max-width: 991px) {
+
+	.graphicsProject {
+		height: 300px;
+	}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+	.graphicsProject {
+			height: 300px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+
+	.graphicsProject {
+			height: 300px;
+	}
 }
