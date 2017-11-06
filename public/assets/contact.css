@@ -37,3 +37,23 @@ body {
 	background-color: #7bbac5;
 	border: none;
 }
+
+@media only screen and (max-width: 575px) {
+
+	h1 {
+		font-size: 30px;
+	}
+
+}
+
+@media only screen and (max-width: 410px) {
+
+	h1 {
+		font-size: 20px;
+	}
+
+	.contact {
+		padding: 20px;
+	}
+
+}
