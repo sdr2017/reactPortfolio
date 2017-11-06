@@ -18,10 +18,6 @@ body {
 	color: #ce827a;
 }
 
-.projects {
-	height: 300px;
-
-}
 
 #project1 {
 	background-image: url(images/graphics/project1/project1.jpg);
@@ -49,7 +45,6 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	z-index: 0;
 }
 
 #project5 {
