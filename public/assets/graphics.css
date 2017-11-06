@@ -18,6 +18,10 @@ body {
 	color: #ce827a;
 }
 
+.graphicsProject {
+		height: 300px;
+	}
+
 
 #project1 {
 	background-image: url(images/graphics/project1/project1.jpg);
@@ -134,7 +138,7 @@ body {
 @media only screen and (max-width: 991px) {
 
 	.graphicsProject {
-		height: 300px;
+		height: 200px;
 	}
 
 }
@@ -149,7 +153,24 @@ body {
 
 @media only screen and (max-width: 575px) {
 
+	.turning {
+		opacity: 0.0;
+	}
+
+	#project6 {
+		background-image: url(images/graphics/project6/beer1.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#project11 {
+		background-image: url(images/graphics/project11/project11.jpg);
+		background-position: center;
+		background-size: 110;
+	}
+
 	.graphicsProject {
-			height: 300px;
+			height: 275px;
 	}
 }
