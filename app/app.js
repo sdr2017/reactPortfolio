@@ -17,25 +17,25 @@ const Footer = () => {
 				<a href="https://github.com/sdr2017" target="_blank"><img
 				id="github"
 				alt="github"
-				src="assets/images/github.png"
+				src="assets/images/github.svg"
 				/></a>
 
 				<a href="https://www.linkedin.com/in/sarah-diaz-rivera/" target="_blank"><img
 				id="linkedin"
 				alt="linkedin"
-				src="assets/images/linkedin.png"
+				src="assets/images/linkedin.svg"
 				/></a>
 
 				<a href="https://dribbble.com/sdrivera" target="_blank"><img
 				id="dribbble"
 				alt="dribbble"
-				src="assets/images/dribbble.png"
+				src="assets/images/dribbble.svg"
 				/></a>
 
 				<a href="https://www.instagram.com/sarahdiazrivera/" target="_blank"><img
 				id="instagram"
 				alt="instagram"
-				src="assets/images/instagram.png"
+				src="assets/images/instagram.svg"
 				/></a>
 
 			</div>        	
