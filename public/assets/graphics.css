@@ -73,11 +73,6 @@ body {
 
 #project6 {
 	padding: 0px;
-	-webkit-transition: all 1s ease; /* Safari and Chrome */
-    -moz-transition: all 1s ease; /* Firefox */
-    -ms-transition: all 1s ease; /* IE 9 */
-    -o-transition: all 1s ease; /* Opera */
-    transition: all 1s ease;
 }
 
 #project7 {
@@ -149,6 +144,7 @@ body {
      transform:scale(1.08);
 }
 
+
 #myTurntable {
 	height: 300px;
 }
@@ -179,6 +175,19 @@ body {
 .turntable ul li.active {
 	display: block; 
 }
+
+/******************** MODAL*****************************/
+.modal-content{
+	width: 700px;
+}
+
+.modal-header {
+    background-color: #c4c4c4;
+    color: #635858;
+}
+
+
+/******************** MODAL*****************************/
 
 @media only screen and (max-width: 991px) {
 
