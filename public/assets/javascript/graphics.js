@@ -19,9 +19,13 @@ $(document).ready(function() {
 		reverse: true,
 	});
 
+	////////////////////MODAL/////////////////////
+
 	$(document).on('click', '.projectImage', function() {
+		//grab the value of the image clicked
 		var value = $(this).attr('id');
 		console.log(value);
+
 	});
 
 });
