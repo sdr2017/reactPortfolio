@@ -26,6 +26,11 @@ $(document).ready(function() {
 		var value = $(this).attr('id');
 		console.log(value);
 
+		//print project name to top of modal
+		$(".modal-header").html(value);
+
+		//populate modal with images and content
+
 	});
 
 });
